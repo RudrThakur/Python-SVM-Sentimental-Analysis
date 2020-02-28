@@ -22,7 +22,7 @@ from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import confusion_matrix, roc_auc_score, recall_score, precision_score
 from sklearn.model_selection import GridSearchCV
 
-data = pd.read_csv("C:\\Users\Rudr\Documents\GitHub\Python-ML-Review-Based-Sentimental-Analysis\\test3\datasets\Tweets.csv")
+data = pd.read_csv("C:\\Users\Rudr\Documents\GitHub\Python-SVM-Sentimental-Analysis\src\datasets\Tweets.csv")
 
 print(data)
 
